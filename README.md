@@ -1,42 +1,48 @@
-UserManager.sh
+🚀 UserManager.sh
+📌 Overview
+Simple shell script to manage users and teams with proper permissions and shared folders.
 
-Overview
+⚙️ Features
+✔ Add Team (Group)
 
-Simple shell script to manage users and teams with proper permissions and shaerd folders.
+✔ Add User to Team
 
-Features
+✔ Delete User / Team
 
-.    Add Team (group)
+✔ 🔑 Change Password / Shell
 
-.    Add User to Team
+✔ 📋 List Users / Teams
 
-.    Delete User/Team
-
-.    Change password/shell
-
-.    Lint Users/Teams
-
-Structure
-
+📁 Structure
 /home
-Rakesh 
-o	team
-o	ninja
-•	Sandeep 
-o	team
-o	ninja
+ ├── Rakesh
+ │    ├── team
+ │    └── ninja
+ └── Sandeep
+      ├── team
+      └── ninja
+🔐 Permissions
+👤 User → Full access (rwx)
 
-  Permissions
-  
- .  User – Full access(rwx)
- 
-  .   Team – Read + Execute
-  
-  .   Others -Execute only 
-  
-Chmod 751 /home/username
+👥 Team → Read + Execute
 
-User
-Create Team
-Sudo ./UserManager.sh addTeam Team
+🌍 Others → Execute only
 
+chmod 751 /home/username
+🚀 Usage
+🏗️ Create Team
+sudo ./UserManager.sh addTeam TEAMA
+👤 Add User to Team
+sudo ./UserManager.sh addUser RAKESH TEAMB
+❌ Delete User
+sudo ./UserManager.sh deleteUser USERNAME
+🗑️ Delete Team
+sudo ./UserManager.sh deleteTeam TEAMNAME
+🔑 Change Password
+sudo ./UserManager.sh changePassword USERNAME
+🐚 Change Shell
+sudo ./UserManager.sh changeShell USERNAME /bin/bash
+📋 List Users
+./UserManager.sh listUsers
+📂 List Teams
+./UserManager.sh listTeams
