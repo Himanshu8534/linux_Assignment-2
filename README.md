@@ -1,4 +1,5 @@
 
+
 🚀 UserManager.sh 
 
 📌 Overview
@@ -18,7 +19,11 @@ Simple shell script to manage users and teams with proper permissions and shared
 
    ✔ 📋 List Users / Teams
 
-      
+📁 Structure
+
+<img width="420" height="200" alt="Screenshot 2026-07-31 232610" src="https://github.com/user-attachments/assets/b9b07363-3c9e-4804-91e6-641b52446058" />
+
+
 🔐 Permissions
 
   👤 User → Full access (rwx)
