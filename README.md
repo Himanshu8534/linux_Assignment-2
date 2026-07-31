@@ -1,4 +1,4 @@
-<img width="1918" height="897" alt="Screenshot 2026-07-31 234019" src="https://github.com/user-attachments/assets/bc8afd99-374e-4d2c-9ae6-33c452a40e10" />
+
 🚀 UserManager.sh 
 
 📌 Overview
@@ -60,3 +60,6 @@ sudo ./UserManager.sh changeShell USERNAME /bin/bash
 ./UserManager.sh listUsers
 📂 List Teams
 ./UserManager.sh listTeams
+
+
+<img width="1918" height="897" alt="Screenshot 2026-07-31 234019" src="https://github.com/user-attachments/assets/bc8afd99-374e-4d2c-9ae6-33c452a40e10" />
