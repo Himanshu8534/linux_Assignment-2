@@ -17,15 +17,6 @@ Simple shell script to manage users and teams with proper permissions and shared
 
    ✔ 📋 List Users / Teams
 
-📁 Structure
-
-/home
- ├── Rakesh
- │    ├── team
- │    └── ninja
- └── Sandeep
-      ├── team
-      └── ninja
       
 🔐 Permissions
 
