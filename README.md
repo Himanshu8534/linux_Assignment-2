@@ -6,6 +6,7 @@ Simple shell script to manage users and teams with proper permissions and shared
 
 ⚙️ Features
 
+
    ✔ Add Team (Group)
 
    ✔ Add User to Team
