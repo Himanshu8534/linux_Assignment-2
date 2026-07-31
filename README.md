@@ -1,4 +1,4 @@
-🚀 UserManager.sh
+🚀 UserManager.sh 
 📌 Overview
 Simple shell script to manage users and teams with proper permissions and shared folders.
 
